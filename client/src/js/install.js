@@ -3,7 +3,7 @@ const installBtn = document.getElementById('buttonInstall');
 
 window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
-    buttonInstall.style.visibility = 'visible';
+    installBtn.style.visibility = 'visible';
 
     installBtn.addEventListener('click', () => {
         event.prompt();
